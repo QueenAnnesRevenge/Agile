@@ -1,14 +1,14 @@
 {
-  "projects": {
-    "default": "agile-1a0c4"
-  },
   "targets": {
-    "agile-1a0c4": {
+    "agile-81ba5": {
       "hosting": {
         "Agile": [
-          "agile-1a0c4"
+          "agile-81ba5"
         ]
       }
     }
+  },
+  "projects": {
+    "default": "agile-81ba5"
   }
 }
