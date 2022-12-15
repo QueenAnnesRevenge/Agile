@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "agile-1a0c4"
+  },
+  "targets": {
+    "agile-1a0c4": {
+      "hosting": {
+        "Agile": [
+          "agile-1a0c4"
+        ]
+      }
+    }
+  }
+}
