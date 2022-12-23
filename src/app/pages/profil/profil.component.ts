@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 //import * as console from 'console';
+import { PersonneI } from 'src/app/modeles/page-i';
 import { PagesService } from 'src/app/services/pages.service';
 
 @Component({
@@ -10,6 +11,8 @@ import { PagesService } from 'src/app/services/pages.service';
 
 
 export class ProfilComponent implements OnInit {
+
+  personne: PersonneI = <PersonneI>{};
  
   constructor(public pageS: PagesService){}
 
@@ -17,6 +20,11 @@ export class ProfilComponent implements OnInit {
     console.log(this.pageS.listPersonnes);
     this.pageS.getFirePersonnel();
   }
+
+  checkId(){
+    console.log(this.personne);
+  }
+
 }
 
 
